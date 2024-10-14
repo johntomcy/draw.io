@@ -1,9 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="pxzAmjlfFoY1moTTHv_x">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j7z1QLIBkX-LWICDHEFR-1" value="AirBid Agent Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j7z1QLIBkX-LWICDHEFR-2" value="Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j7z1QLIBkX-LWICDHEFR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="j7z1QLIBkX-LWICDHEFR-3" target="j7z1QLIBkX-LWICDHEFR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7z1QLIBkX-LWICDHEFR-3" value="AirBid Customer Bid Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j7z1QLIBkX-LWICDHEFR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j7z1QLIBkX-LWICDHEFR-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7z1QLIBkX-LWICDHEFR-4" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j7z1QLIBkX-LWICDHEFR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="309.5" as="targetPoint" />
+            <mxPoint x="80" y="309.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
